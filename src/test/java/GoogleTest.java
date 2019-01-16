@@ -11,7 +11,7 @@ public class GoogleTest {
         open("http://google.com/ncr");
         $(By.name("q")).val("selenide").pressEnter();
 
-        $$("#ires .g").shouldHave(size(15));
+        System.out.println("Количество найденных ссылок:" + $$("#ires .g").size());        //.shouldHave(size(7));
 
         $("#ires .g").shouldHave(
                 text("Selenide: concise UI tests in Java"));

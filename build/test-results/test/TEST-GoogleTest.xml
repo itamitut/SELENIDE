@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GoogleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-11-08T11:59:57" hostname="PC22683" time="30.322">
+  <properties/>
+  <testcase name="user_can_search_everything_in_google" classname="GoogleTest" time="30.322"/>
+  <system-out><![CDATA[РљРѕР»РёС‡РµСЃС‚РІРѕ РЅР°Р№РґРµРЅРЅС‹С… СЃСЃС‹Р»РѕРє:10
+]]></system-out>
+  <system-err><![CDATA[Nov 08, 2018 2:59:57 PM com.codeborne.selenide.drivercommands.LazyDriver getAndCheckWebDriver
+INFO: No webdriver is bound to current thread: 11 - let's create a new webdriver
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7) on port 11702
+Only local connections are allowed.
+Nov 08, 2018 3:00:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Nov 08, 2018 3:00:13 PM com.codeborne.selenide.webdriver.BrowserResizer adjustBrowserSize
+INFO: Set browser size to 1366x768
+Nov 08, 2018 3:00:14 PM com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
+INFO: BrowserName=chrome Version=70.0.3538.77 Platform=XP
+Nov 08, 2018 3:00:14 PM com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
+INFO: Selenide v. 5.0.0
+Nov 08, 2018 3:00:14 PM com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
+INFO: Selenium WebDriver v. 3.14.0 build time: 2018-08-02T20:19:58.91Z
+Nov 08, 2018 3:00:14 PM com.codeborne.selenide.drivercommands.CreateDriverCommand createDriver
+INFO: Create webdriver in current thread 11: ChromeDriver -> ChromeDriver: chrome on XP (7834f56eee8c420cf6a5c83365e73f46)
+]]></system-err>
+</testsuite>
